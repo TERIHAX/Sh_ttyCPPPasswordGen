@@ -33,7 +33,7 @@ int main()
     cout << "\nsymbols?\n0: uh no\n1: yes\n";
     cin >> symbols;
 
-    printf("\nresults:\n");
+    cout << "\nresults:\n";
     if (uppercase >= 1) {
         charSet += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
