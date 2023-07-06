@@ -22,7 +22,6 @@ int main()
     int symbols = 1;
 
     cout << "sh*tty password gen made in c++\n\nhow many characters do you want the password to be:\n";
-    // uh doing this apparently "doesnt report conversion errors and i should use `strtol` instead but idfk
     cin >> passLength;
 
     cout << "\nuppercase characters?\n0: no\n1: uh yes\n";
